@@ -5,7 +5,7 @@ public class MoveScript : MonoBehaviour
 {
     private Rigidbody2D _rigidBody2d;
     private Queue<Vector2> _allPosSpis;
-    public float Speed = 20.0f;
+    public float Speed = 50.0f;
     public LineRenderer line;
     private bool _isDie;
     
